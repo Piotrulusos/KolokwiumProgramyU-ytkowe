@@ -1,0 +1,19 @@
+//Zad 1
+//a)
+degrees = acos(-0.45)*180/%pi;
+disp(degrees);
+//b)
+A = [1 -2 3; 2 4 3; 6 -2 5; 8 6 -1; 0 0 0];
+r = rank(A);
+disp(r);
+//c)
+b = 20;
+c = 30;
+a = sqrt(c^2 - b^2);
+disp(a);
+//d)
+suma = 0;
+for i = 1:33
+    suma = suma + (i + 1)/ factorial(i);
+end
+disp(suma);
