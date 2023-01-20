@@ -1,0 +1,11 @@
+//Zad 2
+x = linspace(1,6,100);
+f = cos(2*x);
+g = x.^3 + 4*x ./ (x.^2 + x + 5);
+plot(x,f,'r',x,g,'g');
+legend("f(x)=cos(2x)", "g(x)=x^3 + 4x / (x^2 + x + 5)");
+xlabel("x");
+ylabel("y");
+title("Wykres dwóch funkcji");
+grid;
+xlim([1,6]);
